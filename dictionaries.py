@@ -10,3 +10,5 @@ print(all_keys)
 this_dict["surname"] = "Hossain";
 print(all_keys)
 print(this_dict.items())
+print(this_dict.popitem())
+print(this_dict)
