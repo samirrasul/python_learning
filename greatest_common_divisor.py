@@ -12,4 +12,4 @@ def GCD(number1, number2):
             break
     return result
 
-print(GCD(56, 128))
+print(GCD(56, 56))
