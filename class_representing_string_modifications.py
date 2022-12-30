@@ -19,7 +19,10 @@ class String:
 
     def set_string(self, string):
         
-        self.string = string
+        if self.validate(string):
+            self.string = string
+        else:
+            raise TypeError("Only strings are allowed")
 
 
     def get_string(self):
@@ -28,16 +31,12 @@ class String:
     
     def validate(self, value):
         
-        if type(value) == str:
-            print(True)
-            self.string = value
-
-        else:
-            print(False)
-            quit()
+        if not type(value) == str:
+            return False
+        return True
     
 string1 = String()
-string1.validate(True)
+string1.set_string("12")
 #string1.set_string(6)
 print(string1.get_string())
 
