@@ -1,0 +1,5 @@
+Successfully deposited 123 azn. The balance is 136 azn.
+Successfully deposited 121 azn. The balance is 121 azn.
+Successfully deposited 12 azn. The balance is 133 azn.
+Successfully wihdrawed 120 azn. The balance is 13 azn.
+Successfully deposited 123 azn. The balance is 136 azn.
