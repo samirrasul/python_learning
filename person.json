@@ -1,0 +1,10 @@
+{
+    "name": "Jacob",
+    "age": 24,
+    "birth place": "London",
+    "has children": false,
+    "professions": [
+        "mathemtician",
+        "engineer"
+    ]
+}
